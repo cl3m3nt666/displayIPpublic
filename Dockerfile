@@ -6,7 +6,7 @@ RUN apk --no-cache --update add \
 
 
 RUN pip3 install --upgrade pip && \
-    pip3 install bottle requests json
+    pip3 install bottle requests
 
 
 COPY web /web
